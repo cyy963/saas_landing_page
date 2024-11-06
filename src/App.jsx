@@ -1,6 +1,11 @@
+import Header from "./sections/Header"
+
 const App = () => {
   return (
-    <div>App</div>
+    <main className="overflow-hidden">
+      <Header/>
+
+    </main>
   )
 }
 export default App
